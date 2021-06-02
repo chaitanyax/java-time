@@ -17,3 +17,21 @@ Java Editions.
 >The Java compiler takes Java code and compiles it down to Java Bytecode which is a cross-platform format. When we run Java applications, Java Virtual Machine (JVM) gets loaded in the memory. It takes our bytecode as the input and translates it to the native code for the underlying operating system. There are various implementations of Java Virtual Machine for almost all operating systems.  
 Architecture of Java Applications  
 >The smallest building blocks in Java programs are methods (also called functions in other programming languages). We combine related methods in classes, and related classes in packages. This modularity in Java allows us to break down large programs into smaller building blocks that are easier to understand and re-use. 
+
+### Types 
+### Variables 
+> We use variables to temporarily store data in computer’s memory. In Java, the type of a variable should be specified at the time of declaration.  
+> In Java, we have two categories of types:  
+•Primitives: for storing simple values like numbers, strings and booleans.  
+•Reference Types: for storing complex objects like email messages. 
+
+### Primitive Types  
+Type	Bytes	Range
+byte		1 [-128, 127]
+short		2 [-32K, 32K]
+int		4 [-2B, 2B]
+long		8
+float		4
+double		8
+char		2 A, B, C, …
+boolean		1 true / false
