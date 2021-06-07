@@ -36,3 +36,38 @@ Architecture of Java Applications
 |double	|8|
 |char		|2 |A, B, C, …|
 |boolean		|1 |true / false|
+
+## Reference Types 
+> In Java we have 8 primitive types. All the other types are reference types. These types don’t store the actual objects in memory. They store the reference (or the address of) an object in memory. 
+> To use reference types, we need to allocate memory using the new operator. The memory gets automatically released when no longer used.
+```
+Date now = new Date();
+```
+
+## Strings 
+> Strings are reference types but we don’t need to use the new operator to allocate memory to them. We can declare string variables like the primitives since we use them a lot.
+```
+String name = “Mosh”;
+```
+
+## Useful String Methods  
+> The String class in Java provides a number of useful methods:  
+•startsWith(“a”) 
+•endsWith(“a”)  
+•length() 
+•indexOf(“a”) 
+•replace(“a”, “b”) 
+•toUpperCase() 
+•toLowerCase()
+
+> Strings are immutable, which means once we initialize them, their value cannot be changed. All methods that modify a string (like toUpperCase) return a new string object. The original string remains unaffected.
+
+## Escape Sequences
+
+> If you need to use a backslash or a double quotation mark in a string, you need to prefix it with a backslash. This is called escaping.  
+## Common escape sequences:  
+•\\ 
+•\” 
+•\n (new line) 
+•\t (tab) 
+
