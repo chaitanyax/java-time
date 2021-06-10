@@ -71,3 +71,6 @@ String name = “Mosh”;
 •\n (new line) 
 •\t (tab) 
 
+![image](https://user-images.githubusercontent.com/11692119/121558618-716c5500-ca33-11eb-91a8-c6965ae509e2.png)
+
+
